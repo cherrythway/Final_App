@@ -11,6 +11,7 @@ const displayHashtags = (tasks) => {
     });
   });
 
+  
   return Array.from(tags.entries()).map(([tag, count]) => ({ tag, count }));
 };
 
